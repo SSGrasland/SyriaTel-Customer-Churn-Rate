@@ -15,7 +15,7 @@ Which features increase the likelihood of churn?
 #### Metric to use: Recall
 A common data science question is should this model be more focused with precision or recall. Precision measures how precise the predictions are while recall measures what percentage of the classes we’re focused on are actually being captured by the model. For this model of primary concern is false negatives– predicting a customer will not churn when they do. Hence, recall is a better metric for this dataset. It is more costly for the company to predict that a customer would stay when they actually churn. By using recall more customer retention strategies can be implemented. It is more beneficial for the company to misidentify someone as ‘churning’ and use a strategy to keep them engaged rather than missing one who will churn and applying retention measures to have them continue using the services. 
 
-![alt text](https://github.com/[SSGrasland]/[Phase3Project]/[images]/raw=true "Churn.JPG")
+![Alt text](url (https://github.com/SSGrasland/Phase3Project/blob/main/images/churn.JPG"[Churn]")
 
 ## Methodology
 The process for conducting our research and modeling will follow the iterative OSEMiN pipeline. This entails obtaining, scrubbing, exploring, modeling, and interpreting the data. 
