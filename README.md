@@ -71,9 +71,13 @@ We need to convert these so that we may intepret the data.
 - Target variable (y): 'churn'
 - Features (X): all othre columns
 
+![Churn]([https://github.com/SSGrasland/Phase3Project/blob/main/images/churn.JPG](https://github.com/SSGrasland/Phase3Project/blob/main/images/download%20(1).png)
+
 ### Final Model on Test Data
 
 The final model is a hypertuned XG Boost Model using scaled and resampled data. It has a recall score of 0.99 and a precision score of 1, this is excellent because our precision did not suffer due to prioritizing recall. Our model was able to predict 2133 out of 2137 churns and did not mislabel any customers that did not leave. The train and test score were both 1 meaning that our model performs well on real world conditions.
+
+![Final Model](https://github.com/SSGrasland/Phase3Project/blob/main/images/final%20model.png)
 
 ## Interpreting the Data
 - Identify insights 
@@ -83,12 +87,16 @@ The final model is a hypertuned XG Boost Model using scaled and resampled data. 
 
 By using scikit learns feature importance we can see what variables most impacted customer churn rate. 
 
+![Recall](https://github.com/SSGrasland/Phase3Project/blob/main/images/download%20(2).png)
+
 ### Top Feature Visualization 
 
 To help us understand how our most important feautres impact churn rates lets visualize them. The three features that had the highest impact on churn rate were:   
 - ‘International_plan’: Does the customer have an international plan or not    
 - ‘Customer_serivce_calls’: How many calls has the CST made to customer service   
 - ‘Total_day_minutes’: How many minutes a day is this CST on the phone 
+
+![Feature Importance](https://github.com/SSGrasland/Phase3Project/blob/main/images/download%20(3).png))
  
 #### Churn by Number of Customer Service Calls 
 On average customers who churned made 2.2 customer service calls, with 4 calls being the point where more than half of customers churned. Perhaps in the future customers who are calling for the 3rd time can be channeled to more senior customer service agents. This kernel also looked at the most important features in regard to customer service calls and found that ‘international_plan’, ‘total_day_minutes”, and ‘total_intl_calls’ were the top 3 variables. It seems as if customers who need to use the companies international services are more likely to churn. The company should consider allocating more resources to their international plans in order to retain customers. 
