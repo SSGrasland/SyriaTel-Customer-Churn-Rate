@@ -71,7 +71,7 @@ We need to convert these so that we may intepret the data.
 - Target variable (y): 'churn'
 - Features (X): all othre columns
 
-![Churn]([https://github.com/SSGrasland/Phase3Project/blob/main/images/churn.JPG)(https://github.com/SSGrasland/Phase3Project/blob/main/images/download%20(1).png)
+![Class Imbalance](https://github.com/SSGrasland/Phase3Project/blob/main/images/download%20(1).png)
 
 ### Final Model on Test Data
 
